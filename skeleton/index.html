@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Please don't fire me</title>
+  <meta content="text/html; charset=utf-8"
+        http-equiv="content-type">
+  <link href="main.css"
+        rel="stylesheet"
+        type="text/css">
+</head>
+<body>
+  <h1><u>Matrix Tac Toe</u><BODY TEXT="#FFD700"></BODY></h1>
+  <p id="winner-name"> <p id="winner-display"> Wins</p> </p>
+  <div id="grid">
+    <div class="row"
+         id="row-0">
+      <div class="column"
+           id="row-0-column-0"></div>
+      <div class="column"
+           id="row-0-column-1"></div>
+      <div class="column"
+           id="row-0-column-2"></div>
+    </div>
+    <div class="row"
+         id="row-1">
+      <div class="column"
+           id="row-1-column-0"></div>
+      <div class="column"
+           id="row-1-column-1"></div>
+      <div class="column"
+           id="row-1-column-2"></div>
+    </div>
+    <div class="row"
+         id="row-2">
+      <div class="column"
+           id="row-2-column-0"></div>
+      <div class="column"
+           id="row-2-column-1"></div>
+      <div class="column"
+           id="row-2-column-2"></div>
+    </div>
+  </div>
+  <script>
+       let currentPlayer = "Morpheus";
+       function place(box) {
+            box.innerText = currentPlayer;
+          if(currentPlayer == "Morpheus") {
+               currentPlayer = "Neo";
+          }
+          else {
+               currentPlayer = "Morpheus";
+          }
+       }
+  </script>
+  <button id="reset-button">Reset</button>
+  <p></p>
+  <script src="academy.js"
+        type="text/javascript"></script> 
+  <script src="connectors.js"
+        type="text/javascript"></script>
+</body>
+</html>

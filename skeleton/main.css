@@ -1,0 +1,55 @@
+.column {
+    width: 100px;
+    height: 100px;
+    margin: 2.5px;
+    border: 8px gold inset;
+    border-radius: 24px;
+    font-size: 80px;
+}
+
+.row {
+    width: 400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.marker {
+    width: 80px;
+    height: 80px;
+}
+
+#winner-name {
+    color: cyan;
+    font-size: 42px;
+}
+
+#winner-display {
+    color: maroon;
+    display: none;
+    font-size: 56px;
+}
+
+body {
+    text-align: center;
+    font-style: "Italic";
+    font-style: oblique;
+    font-family: "fantasy";
+    background-image: url("https://cdn.wallpapersafari.com/6/10/zGM5b2.gif");
+}
+#reset-button {
+    margin-top: 100px;
+    border: 6px gold outset;
+    background-color: rgb(15, 14, 14);
+    border-radius: 24px;
+    color: #03A062;
+    font-family:cursive
+}
+.container {
+    text-align: center; /* center the child */
+}
+h1 {
+    display: inline-flex; /* Placed inside inline element */
+    padding:1px;font-size:50px;color:gold;
+}
+
